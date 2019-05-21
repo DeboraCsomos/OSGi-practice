@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1558445248076
+Build-Jdk: 1.8.0_212
+Built-By: debora
+Bundle-Activator: com.deb.sample.service.implementation.GreeterImpl
+Bundle-ManifestVersion: 2
+Bundle-Name: osgi-practice-sample-service
+Bundle-SymbolicName: com.deb.osgi-practice-sample-service
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.deb.sample.service.definition;version="1.0.0.SNAPSHO
+ T"
+Import-Package: com.deb.sample.service.definition,org.osgi.framework;ver
+ sion="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-3.3.0.201609221906
